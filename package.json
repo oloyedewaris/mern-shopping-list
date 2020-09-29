@@ -1,0 +1,29 @@
+{
+  "name": "Mern-shopping-list-api",
+  "version": "1.0.0",
+  "description": "Mern shopping list built with react",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && nmp start",
+    "dev": "concurrently \"npm run server\" \"cd client && npm start\" "
+  },
+  "author": "Waris",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.2.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "proxy": "http://localhost:5000/"
+}

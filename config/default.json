@@ -1,0 +1,4 @@
+{
+    "dbURI": "mongodb://localhost:27017/itemsDB",
+    "jwtSecret": "temitopzee"
+}
