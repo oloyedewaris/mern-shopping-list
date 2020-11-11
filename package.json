@@ -7,7 +7,7 @@
     "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "cd client && nmp start",
+    "client": "cd client && npm start",
     "dev": "concurrently \"npm run server\" \"cd client && npm start\" "
   },
   "author": "Waris",
